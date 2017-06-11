@@ -30,13 +30,9 @@ head(bank)
  #population mean and sample mean
  
  population_Mean<- mean(income,na.rm = TRUE)
- 
  mean_Of_SampleMean<- mean(sample_means,na.rm = TRUE)
- 
  population_Mean
  mean_Of_SampleMean
- 
- 
  #population sd
  
  population_sd<- sd(income,na.rm = TRUE)
